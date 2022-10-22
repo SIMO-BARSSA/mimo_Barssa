@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perfect site</title>
+    <link rel="icon" href="Logo-hipo-maroc.ico">
+    <link rel="stylesheet" href="my perfect site.css">
+</head>
+<body>
+
+<div class="nav_barr">
+
+
+
+
+    <div class="navigation">
+        <div class="userbx">
+            <div class="image">
+                <img src="myProfile.jpeg">
+            </div>
+            <div class="username">
+                Mohamed Barssa
+            </div>
+        </div>
+        <div class="menutoggle" onclick="dad()"></div>
+        <div class="menu">
+            <ul >
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <span class="title">My Profil</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="chatbubble-ellipses"></ion-icon></span>
+                        <span class="title">Message</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home"></ion-icon></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings"></ion-icon></span>
+                        <span class="title">Setting</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="exit"></ion-icon></span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="imagr">
+        <img src="lferda.jpg" class="bigimg" alt="">
+    </div>
+</div>
+
+<div class="bar">
+    <header>
+        <ul class="ul">
+            <a href="#"> <li style="--i:#2A272A;--j:#4B4A54;">
+                  <span class="icon"><ion-icon name="home"></ion-icon></span>
+                  <span class="cv">Home</span>
+             </li></a>
+             <a href="indix-music.html" >
+             <li style="--i:#677381;--j:#82A0AA;">
+                 <span class="icon"><ion-icon name="headset"></ion-icon></span>
+                 <span class="cv">Music</span>
+             </li></a>   
+             <a href="#" target="_blank">
+             <li style="--i:#7792A7;--j:#C1FAFF;"> 
+                 <span><ion-icon name="notifications"></ion-icon></span>
+                 <span class="cv">Notification</span>
+             </li></a>
+             <a href="#" target="_blank">
+             <li style="--i:#7B7193;--j:#825F7F;">
+                 <span class="icon"><ion-icon name="storefront"></ion-icon></span>
+                 <span class="cv">Store</span>
+             </li></a>
+         </ul>
+    </header>
+</div>
+
+<div class="section">
+    <div class="boxs">
+        <div class="box">
+            <img src="lferda.jpg" alt="">
+            <h1>Lefrda</h1>
+            <p>Playlist dyal akher ma kayen f rap mghribi ...</p>
+        </div>
+        
+        <div class="box">
+            <img src="don bigg.jpg" alt="">
+            <h1>DON BIGG</h1>
+            <p>track 2006 don bigg</p>
+        </div>
+        <div class="box">
+            <img src="Quatrehuit.jpg" alt="">
+            <h1>Quatrehuit</h1>
+            <p>Les hits du maghreb que vous connaissez par ...</p>
+        </div>
+        <div class="box">
+            <img src="toto.jpg" alt="">
+            <h1>TOTO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        </div>
+        <div class="box">
+            <img src="myProfile.jpeg" alt="">
+            <h1>SIMO</h1>
+            <p>hada ghir ana o sf</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="m3lomat">
+        <div class="mjmo">
+        <span><img src="lferda.jpg" alt="" class="img"></span>
+        <span class="miniicon" onclick="imagraa()"><ion-icon name="chevron-up-circle"></ion-icon></span></div>
+        
+        <div class="artnam">
+            <h1 class="song_name">ma joli</h1>
+            <p class="artist">lferda</p>
+        </div>
+    </div> 
+    <div class="outi">
+        <audio src="lefrda ma joli.mp3" class="audio"></audio>
+        <span class="back" onclick="back()" ><ion-icon name="play-skip-back"></ion-icon></span>
+        <span class="material-symbols-outlined" id="play" onclick="play_music()">play_arrow</span>
+        <span class="skip"onclick="skip()"><ion-icon name="play-skip-forward"></ion-icon></span>
+    </div>
+    <div class="khat">
+        <p class="currentTime">0:00</p>
+        <div class="line">
+        <div class="line_move"></div>
+        <p class="durationtime">2:45</p>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="my perfect site.js"></script>
+</html>
